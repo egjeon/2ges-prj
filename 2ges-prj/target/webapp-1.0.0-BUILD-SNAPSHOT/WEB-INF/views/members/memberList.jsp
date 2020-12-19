@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,6 +13,11 @@
 <h1> -회원정보 출력</h1>
 <div class="container">
     <div>
+    <c:choose>
+    <c:when test="${fn:length(members)== 0}">
+    	<h1>유저 정보가 없습니다.</h1>
+    </c:when>
+    <c:otherwise>
         <table border="1">
             <thead> <tr>
                 <th>이름</th>
@@ -31,6 +37,8 @@
             </c:forEach>
             </tbody>
         </table>
+       </c:otherwise>
+      </c:choose>
     </div>
 </div> <!-- /container -->
 </body>
