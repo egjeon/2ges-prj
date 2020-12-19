@@ -15,6 +15,7 @@
             <a href="/members/new">회원 가입</a>
             <a href="/members">회원 목록</a>
             <a href="/members/clear">회원 지우기</a>
+            <a href="#">빈 메뉴</a>
         </p>
     </div>
 </div> <!-- /container -->
