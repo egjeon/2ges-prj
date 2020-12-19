@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="2ges-prj/src/main/java"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/aspectjrt-1.6.10.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.3.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jackson-core-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.3.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.6.6.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/log4jdbc-log4j2-jdbc4-1.16.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/mariadb-java-client-2.3.0.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/mybatis-3.4.1.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.0.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/protobuf-java-2.6.0.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.6.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.6.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-aop-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-asm-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-beans-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-context-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-context-support-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-core-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-expression-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-jdbc-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-tx-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-web-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="2ges-prj/target/webapp-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-webmvc-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lombok.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Tomcat v8.5 Server at 2ges"/>
+	<classpathentry kind="output" path="2ges-prj/target/classes"/>
+</classpath>
