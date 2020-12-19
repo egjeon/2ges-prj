@@ -14,7 +14,7 @@
 <div class="container">
     <div>
     <c:choose>
-    <c:when test="${fn:length(member)== 0}">
+    <c:when test="${fn:length(members)== 0}">
     	<h1>유저 정보가 없습니다.</h1>
     </c:when>
     <c:otherwise>
