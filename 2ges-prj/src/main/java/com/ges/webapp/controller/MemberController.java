@@ -51,9 +51,9 @@ public class MemberController {
 		
 		logger.info("# REQUEST MEMBER DATA");
 		logger.info("====================================================");
-		logger.info("USER NAME : " + member.getUserName());
-		logger.info("USER AGE : " + member.getAge());
-		logger.info("USER ADDR : " + member.getPhone());
+		logger.info("USER NAME : {} ", member.getUserName());
+		logger.info("USER AGE : {} ", member.getAge());
+		logger.info("USER ADDR : {}", member.getPhone());
 		logger.info("====================================================");
 		
 		memberService.join(member);
@@ -70,7 +70,7 @@ public class MemberController {
 		
 		List<Member> members = memberService.findMember();
 		
-		logger.info(members.toString());
+		logger.info("Members ToString : {} ", members.toString());
 		
 		model.addAttribute("members",members);
 		
