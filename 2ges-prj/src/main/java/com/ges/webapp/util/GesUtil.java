@@ -23,16 +23,20 @@ public class GesUtil {
 		String mid = "";
 		String last = "";
 		try {
+			if(value.length() == 10 || value.length() == 11) {
 				first = value.substring(0,3);
 				mid = value.substring(first.length(),value.length()-4);
 				last = value.substring(first.length() + mid.length(),value.length());
 				value = first+"-"+mid+"-"+last;
+				return value;
+			}
 			
 		} catch (NullPointerException e) {
 			logger.error(e.getMessage());
 		} catch (Exception e) {
 			logger.error(e.getMessage());
 		}
+
 		return value;
 		
 	}
