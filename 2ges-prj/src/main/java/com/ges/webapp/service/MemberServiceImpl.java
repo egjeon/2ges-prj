@@ -24,6 +24,9 @@ public class MemberServiceImpl implements MemberService{
 	public void join(Member member) {
 		
 		try {
+			if(member.getPhone().contains("-")) {
+				member.setPhone(member.getPhone().replace("-", ""));
+			}
 			memberRepository.join(member);
 		} catch (Exception e) {
 			logger.error(e.getMessage());
